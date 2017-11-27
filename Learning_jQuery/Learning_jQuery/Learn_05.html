@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Learn 05</title>
+
+    <meta charset="utf-8" name="viewport" content="width=device-width" />
+
+    <!--When Script section is in Head section-->
+
+    <script src="../Scripts/jquery-3.2.1.min.js"></script>
+
+    <script>
+
+        $(document).ready(someFunction);
+
+        function someFunction(){
+
+            $('button#hideButton').click(function () {
+
+                $('p').hide();
+
+            });
+
+        };
+
+    </script>
+
+
+    <style>
+        div {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Hello World!</p>
+    <div>Hello World!</div>
+    <p>Hello World!</p>
+    <div>Hello World!</div>
+    <p>Hello World!</p>
+    <div>Hello World!</div>
+
+    <br />
+    <br />
+
+    <button type="button" id="hideButton">Click Me!</button>
+</body>
+</html>
