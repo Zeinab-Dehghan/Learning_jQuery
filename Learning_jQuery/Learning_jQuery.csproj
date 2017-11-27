@@ -109,6 +109,7 @@
     <Content Include="Learning_jQuery\Learn_03.html" />
     <Content Include="Learning_jQuery\Learn_04.html" />
     <Content Include="Learning_jQuery\Learn_05.html" />
+    <Content Include="Learning_jQuery\Learn_06.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.2.1.js" />

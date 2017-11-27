@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Learn 06</title>
+
+    <meta charset="utf-8" name="viewport" content="width=device-width" />
+
+    <!--jQuery Selectors-->
+
+    <script src="../Scripts/jquery-3.2.1.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $('#hideNameButton').click(function () {
+
+                $('p.name').hide();
+
+            });
+
+            $('#showNameButton').click(function () {
+
+                $('p.name').show();
+
+            });
+
+
+            $('.hideJobButton').click(function () {
+
+                $('p#job').hide();
+
+            });
+
+            $('.showJobButton').click(function () {
+
+                $('p#job').show();
+
+            });
+
+
+        });
+
+    </script>
+
+    <style>
+
+        p.name{
+
+            color:red;
+
+        }
+
+        p#job{
+
+           color:blue;
+
+        }
+
+    </style>
+</head>
+<body>
+    <p>Hello World!</p>
+    <p class="name">Zeinab Dehghan</p>
+    <p id="job">I am a programmer</p>
+
+    <br />
+    <br />
+
+    <button id="hideNameButton">Hide Name!</button>
+    <button id="showNameButton">Show Name!</button>
+
+    <br />
+    <br />
+    <br />
+
+    <button class="hideJobButton">Hide Job!</button>
+    <button class="showJobButton">Show Job!</button>
+
+
+</body>
+</html>
